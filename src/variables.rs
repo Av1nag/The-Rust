@@ -39,7 +39,7 @@ pub fn main(){
     //Constant Variable
     //A constant variable is declared by using const keyword and we 'must' annotate the data type of it
     const A_CONSTANT_VARIABLE :i32 = 60*30; 
-    //using upper snakecase format is a good practice for constnat variables, but also lower case can be used
+    //using upper snakecase format is a good practice for constnat variables, but also lower case can be used.
 
 
 }
