@@ -1,4 +1,4 @@
-fn main(){
+pub fn main(){
     
     //Mutable variable
     let mut mutable_variable = 50;

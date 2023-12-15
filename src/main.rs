@@ -1,3 +1,5 @@
+pub mod data_types;
+pub mod variables;
 use rand::Rng;
 use std::cmp::Ordering;
 use std::io;
@@ -27,6 +29,8 @@ fn main() {
         }
         println!("you guessed :{guess}");
         println!("The random number :{random_number}");
+
+        variables::main();
+        data_types::main();
     }
-    // rocket::build().mount("/", routes![index])
 }
