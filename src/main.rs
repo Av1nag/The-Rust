@@ -9,7 +9,7 @@ fn main() {
         println!("Enter the guessing input !!!");
 
         let random_number = rand::thread_rng().gen_range(1..=100);
-        let mut guess: String = String::new();
+        let mut guess = String::new();
         //"let" keyword is used to declare a variable
         //and "mut" keyword is used to make the variable as mutable
         // if mut keyword isn't there it is intended to work as immutable variable.
@@ -17,7 +17,10 @@ fn main() {
 
         let guess: u32 = match guess.trim().parse() {
             Ok(num) => num,
-            Err(_) => continue,
+            Err(_) => {
+                println!("Enter a number");
+                continue;
+            }
         };
         match guess.cmp(&random_number) {
             Ordering::Less => println!("Too small !!"),
