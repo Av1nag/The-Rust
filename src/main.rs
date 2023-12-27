@@ -1,5 +1,6 @@
 pub mod data_types;
 pub mod variables;
+pub mod functions;
 use rand::Rng;
 use std::cmp::Ordering;
 use std::io;
