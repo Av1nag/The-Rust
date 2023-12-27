@@ -109,7 +109,7 @@ fn tuple_data_type() {
 
     let sixteen_point_five = tuple.1;
 
-    let greeting = tuple_with_type_annotation.2;
+    let greeting = tuple_with_type_annotation.1;
 }
 fn array_data_type() {
     let a = [1, 2, 3, 4, 5];
