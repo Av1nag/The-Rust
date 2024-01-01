@@ -1,6 +1,10 @@
 pub mod data_types;
 pub mod variables;
 pub mod functions;
+pub mod control_flow;
+pub mod ownership;
+pub mod slice_type;
+pub mod struct_examples;
 use rand::Rng;
 use std::cmp::Ordering;
 use std::io;
